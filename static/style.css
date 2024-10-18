@@ -1,0 +1,66 @@
+/* Resetting styles and setting global font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body style to center everything */
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    overflow: hidden;
+}
+
+/* Container for the title and buttons */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px; /* Larger gap between title and buttons */
+}
+
+/* Title style */
+.title {
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Controls layout */
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Increased spacing between buttons */
+    justify-content: center;
+}
+
+/* Button styles */
+.control-btn {
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    background-color: #4481eb;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.control-btn:hover {
+    background-color: #3f86ed;
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+.stop-btn {
+    background-color: #dc3545;
+}
+
+.stop-btn:hover {
+    background-color: #c82333;
+}

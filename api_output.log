@@ -1,0 +1,335 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug: * Detected change in '/Users/andreyvasilyev/Downloads/RobotAPI/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 109-086-212
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-028-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-028-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 206-028-052
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 488-600-943
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:08:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:08:43] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:08:43] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:08:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+ERROR:root:SSH Connection failed: [Errno 64] Host is down
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:09:27] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 488-600-943
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:14:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:14:54] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:14:54] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.160 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0x367e000
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_9.6
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.6)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group14-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, ext-info-s, kex-strict-s-v00@openssh.com
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: aes256-gcm@openssh.com, chacha20-poly1305@openssh.com, aes256-ctr, aes128-gcm@openssh.com, aes128-ctr
+DEBUG:paramiko.transport:server encrypt: aes256-gcm@openssh.com, chacha20-poly1305@openssh.com, aes256-ctr, aes128-gcm@openssh.com, aes128-ctr
+DEBUG:paramiko.transport:client mac: hmac-sha2-256-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha1, umac-128@openssh.com, hmac-sha2-512
+DEBUG:paramiko.transport:server mac: hmac-sha2-256-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha2-256, hmac-sha1, umac-128@openssh.com, hmac-sha2-512
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Strict kex mode: True
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:Resetting outbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Resetting inbound seqno after NEWKEYS due to strict mode
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.160: b'fbf455d91123e102e103da19b59bc8d7'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ecdsa-sha2-nistp256,sk-ecdsa-sha2-nistp256@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-ed25519,sk-ssh-ed25519@openssh.com,rsa-sha2-256,rsa-sha2-512', 'publickey-hostbound@openssh.com': b'0', 'ping@openssh.com': b'0'}
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing SSH Command: python3 "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/mainfinal.py" forward
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF received (0)
+ERROR:root:SSH Error: python3: can't open file '/home/andreyvasilyev/~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/mainfinal.py': [Errno 2] No such file or directory
+
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:14:57] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 488-600-943
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:15:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:15:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:15:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:33:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:33:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:33:30] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:34:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:34:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:34:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+ERROR:root:SSH Connection failed: name 'PI_HOST' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:34:40] "[35m[1mPOST /move HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:35:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:35:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:35:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+ERROR:root:SSH Connection failed: name 'PI_HOST' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:35:38] "[35m[1mPOST /move HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:36:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:36:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:36:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+ERROR:root:SSH Connection failed: name 'PI_HOST' is not defined
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:36:38] "[35m[1mPOST /move HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in '/Users/andreyvasilyev/RobotAPI/Login/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 906-046-625
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:38:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:38:08] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:38:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.213 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0x3b33190
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.8.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_9.6
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_9.6)
+DEBUG:paramiko.transport:kex algos:['curve25519-sha256', 'curve25519-sha256@libssh.org', 'ecdh-sha2-nistp256', 'ecdh-sha2-nistp384', 'ecdh-sha2-nistp521', 'diffie-hellman-group-exchange-sha256', 'diffie-hellman-group14-sha256', 'diffie-hellman-group16-sha512', 'diffie-hellman-group18-sha512', 'ext-info-s', 'kex-strict-s-v00@openssh.com'] server key:['rsa-sha2-512', 'rsa-sha2-256', 'ecdsa-sha2-nistp256', 'ssh-ed25519'] client encrypt:['aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes128-ctr'] server encrypt:['aes256-gcm@openssh.com', 'chacha20-poly1305@openssh.com', 'aes256-ctr', 'aes128-gcm@openssh.com', 'aes128-ctr'] client mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha1', 'umac-128@openssh.com', 'hmac-sha2-512'] server mac:['hmac-sha2-256-etm@openssh.com', 'hmac-sha1-etm@openssh.com', 'umac-128-etm@openssh.com', 'hmac-sha2-512-etm@openssh.com', 'hmac-sha2-256', 'hmac-sha1', 'umac-128@openssh.com', 'hmac-sha2-512'] client compress:['none', 'zlib@openssh.com'] server compress:['none', 'zlib@openssh.com'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey agreed: ssh-ed25519
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha2-256
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.213: b'7cc568538368777171e8bb402e75b7da'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) failed.
+ERROR:root:SSH Connection failed: Authentication failed.
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:38:15] "POST /move HTTP/1.1" 200 -
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 354-657-945
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:08] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:08] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug: * Detected change in '/Users/ishaan/Downloads/WorkingRobotAPI/Login/login.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 354-657-945
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:46:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:23] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:23] "GET /static/script.js HTTP/1.1" 200 -
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:42] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:42] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:52] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:47:52] "GET /static/script.js HTTP/1.1" 200 -
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:09] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:23] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:23] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:43] "POST /move HTTP/1.1" 200 -
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:48:59] "POST /move HTTP/1.1" 200 -
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:49:04] "POST /move HTTP/1.1" 200 -
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:49:52] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:50:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:50:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:50:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:50:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:root:Received command: backward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 354-657-945
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:52:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:52:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:52:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:52:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+ERROR:root:SSH Connection failed: [Errno 60] Operation timed out
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [17/Oct/2024 21:54:47] "POST /move HTTP/1.1" 200 -

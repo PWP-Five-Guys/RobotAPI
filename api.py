@@ -16,14 +16,15 @@ def ssh_command_to_pi(command):
     """SSH into the Raspberry Pi and run the motor command."""
     try:
         logging.info(f"Connecting to {PI_HOST} via SSH...")
-
         # Initialize SSH client
         client = paramiko.SSHClient()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         client.connect(PI_HOST, username=PI_USERNAME, password=PI_PASSWORD)
-
+        kill_command = "pkill -f main.py"
+        logging.info(f"Executing Kill Command: {kill_command}")
+        client.exec_command(kill_command)
         # Command to execute the correct Python script on the Pi
-        ssh_command = f'python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/mainfinal.py" {command}'
+        ssh_command = f'python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" {command}'
         logging.info(f"Executing SSH Command: {ssh_command}")
 
         # Execute the command on the Pi

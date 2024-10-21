@@ -1,0 +1,20 @@
+# Ignore virtual environments
+.venv/
+venv/
+
+# Byte-compiled Python files
+__pycache__/
+*.pyc
+
+# Database and log files
+*.db
+*.log
+
+# User-specific files
+userID.txt
+
+# System files (macOS)
+.DS_Store
+
+# Ignore environment settings for VSCode
+.vscode/

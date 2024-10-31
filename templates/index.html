@@ -7,18 +7,42 @@
     <title>Robot Control</title>
     <link rel="stylesheet" href="static/style.css">
     <script type="text/javascript" src="static/script.js" defer></script>
+    <script type="text/javascript" src="static/log_script.js" defer></script>
 </head>
 
 <body>
-    <div class="container">
-        <h1 class="title">Robot Control Interface</h1>
+    <div class="grid-container">
+        <!-- Top left: Video Stream -->
+        <div class="grid-item camera-view">
+            Video Stream
+        </div>
 
-        <div class="controls">
-            <button class="control-btn" data-command="forward" aria-label="Move Forward">FORWARD</button>
-            <button class="control-btn" data-command="back" aria-label="Move Backward">BACKWARD</button>
-            <button class="control-btn" data-command="left" aria-label="Turn Left">LEFT</button>
-            <button class="control-btn" data-command="right" aria-label="Turn Right">RIGHT</button>
-            <button class="control-btn stop-btn" data-command="stop" aria-label="Stop Robot">STOP</button>
+        <!-- Top right: Arrow Controls -->
+        <div class="grid-item controls-container">
+            <h1 class="title">Robot Control Interface</h1>
+            <div class="arrow-controls">
+                <button class="arrow-btn" data-command="forward">&#9650;</button>
+                <div class="center-controls">
+                    <button class="arrow-btn" data-command="left">&#9664;</button>
+                    <button id="pause-resume-btn" class="center-btn" data-status="paused">Pause</button>
+                    <button class="arrow-btn" data-command="right">&#9654;</button>
+                </div>
+                <button class="arrow-btn" data-command="back">&#9660;</button>
+            </div>
+        </div>
+
+        <!-- Bottom left: Roads (Placeholder) -->
+        <div class="grid-item roads-view">
+            Video Stream
+        </div>
+
+        <!-- Bottom right: Logs with Tab Switcher -->
+        <div class="grid-item logs">
+            <div class="log-buttons">
+                <button id="api-log-btn" class="log-btn active">API Output Log</button>
+                <button id="login-log-btn" class="log-btn">Login Record Log</button>
+            </div>
+            <pre id="log-content" class="log-display"></pre>
         </div>
     </div>
 </body>

@@ -1,4 +1,3 @@
-/* Resetting styles and setting global font */
 * {
     margin: 0;
     padding: 0;
@@ -6,55 +5,80 @@
     font-family: Arial, sans-serif;
 }
 
-/* Body style to center everything */
 body {
     background-color: black;
+    color: white;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    color: white;
     overflow: hidden;
 }
 
-/* Container for the title and buttons */
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 80px; /* Larger gap between title and buttons */
+/* Grid layout for 2x2 boxes */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 90vw;
+    height: 90vh;
 }
 
-/* Title style */
-.title {
-    font-size: 3rem;
+/* Grid item styling */
+.grid-item {
+    background-color: #222;
+    border: 2px solid #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Specific section styling */
+.camera-view, .roads-view, .logs {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.controls-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.title {
+    font-size: 2.5rem;
 }
 
 /* Controls layout */
 .controls {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px; /* Increased spacing between buttons */
+    gap: 20px;
     justify-content: center;
 }
 
 /* Button styles */
 .control-btn {
-    width: 170px;
-    height: 60px;
-    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
     color: white;
     background-color: #4481eb;
     border: none;
-    border-radius: 30px;
+    border-radius: 25px;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .control-btn:hover {
     background-color: #3f86ed;
-    transform: scale(1.1); /* Slight zoom effect */
+    transform: scale(1.1);
 }
 
 .stop-btn {
@@ -63,4 +87,49 @@ body {
 
 .stop-btn:hover {
     background-color: #c82333;
+}
+
+/* Logs Section Styling */
+.logs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+/* Log navigation buttons */
+.log-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.log-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.log-btn.active {
+    background-color: #4481eb;
+}
+
+/* Log display styling with scroll */
+.log-display {
+    width: 100%;
+    height: 300px; /* Fixed height to enable scrolling */
+    background-color: black;
+    color: #00ff00; /* Green terminal text */
+    padding: 10px;
+    border-radius: 5px;
+    overflow-y: auto; /* Enable vertical scroll */
+    font-family: monospace;
+    font-size: 0.9rem;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }

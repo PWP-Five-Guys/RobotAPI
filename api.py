@@ -1,6 +1,7 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, send_file
 import paramiko
 import logging
+import os
 
 # SSH details
 PI_HOST = "192.168.1.121"
@@ -10,7 +11,6 @@ PI_PASSWORD = "5guys"
 # Flask setup
 app = Flask(__name__)
 logging.basicConfig(filename='api_output.log', level=logging.DEBUG)  # Enable debug-level logging
-
 
 def ssh_command_to_pi(command):
     """SSH into the Raspberry Pi and run the motor command."""
@@ -54,7 +54,6 @@ def home():
     """Render the control interface."""
     return render_template('index.html')
 
-
 @app.route('/move', methods=['POST'])
 def move():
     """Handle POST requests to move the robot."""
@@ -67,6 +66,15 @@ def move():
     response = {'success': True, 'out_command': command}
     return jsonify(response)
 
+# Route to fetch and stream the log files
+@app.route('/logs/<filename>')
+def logs(filename):
+    """Serve the log files dynamically."""
+    log_path = os.path.join(os.getcwd(), filename)
+    if os.path.exists(log_path):
+        return send_file(log_path, mimetype='text/plain')
+    else:
+        return jsonify({'error': 'File not found'}), 404
 
 if __name__ == '__main__':
     app.run(debug=True, port=10000)

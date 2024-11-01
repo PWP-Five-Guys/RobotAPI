@@ -1,3 +1,4 @@
+/* Reset and general styling */
 * {
     margin: 0;
     padding: 0;
@@ -13,33 +14,44 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding: 5px; /* Reduce padding for better fit */
 }
 
-/* Grid layout for 2x2 boxes */
+/* Responsive grid layout */
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr; /* Default 2-column layout */
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
-    width: 90vw;
-    height: 90vh;
+    gap: 10px; /* Reduced gap between grid items */
+    width: 100%;
+    height: 80vh; /* Decreased height for better fit */
+}
+
+/* Adjust layout for smaller screens */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* Single column on small screens */
+        grid-template-rows: repeat(4, 1fr); /* Each box takes full width */
+        height: auto; /* Allow height to expand */
+    }
 }
 
 /* Grid item styling */
 .grid-item {
     background-color: #222;
-    border: 2px solid #444;
+    border: 2px solid #333;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 12px;
+    padding: 15px; /* Reduced padding for compact fit */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Specific section styling */
 .camera-view, .roads-view, .logs {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
 }
 
@@ -48,85 +60,97 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 15px; /* Reduced gap */
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 1.8rem; /* Slightly smaller font */
 }
 
-/* Controls layout */
-.controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* Button styles */
-.control-btn {
-    width: 150px;
-    height: 50px;
-    font-size: 18px;
+/* Modern button styles */
+.arrow-btn {
+    width: 45px; /* Smaller width */
+    height: 45px; /* Smaller height */
+    font-size: 1.4rem;
     color: white;
-    background-color: #4481eb;
+    background: linear-gradient(145deg, #4a90e2, #357abd);
     border: none;
-    border-radius: 25px;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.control-btn:hover {
-    background-color: #3f86ed;
-    transform: scale(1.1);
+.arrow-btn:hover {
+    background: linear-gradient(145deg, #5a9bf2, #468acb);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.stop-btn {
-    background-color: #dc3545;
+.center-btn {
+    width: 60px;
+    height: 35px;
+    background: linear-gradient(145deg, #e74c3c, #c0392b);
+    color: white;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.stop-btn:hover {
-    background-color: #c82333;
+.center-btn:hover {
+    background: linear-gradient(145deg, #f5544b, #c74435);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Logs Section Styling */
+/* Logs section styling */
 .logs {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    gap: 10px;
+    gap: 5px;
+    font-size: 1.1rem;
 }
 
 /* Log navigation buttons */
 .log-buttons {
     display: flex;
-    gap: 10px;
+    gap: 5px;
 }
 
 .log-btn {
-    padding: 10px 20px;
+    padding: 5px 12px;
     background-color: #333;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.log-btn:hover {
+    background-color: #444;
 }
 
 .log-btn.active {
     background-color: #4481eb;
 }
 
-/* Log display styling with scroll */
+/* Log display styling with reduced height */
 .log-display {
     width: 100%;
-    height: 300px; /* Fixed height to enable scrolling */
+    height: 250px; /* Reduced height for better viewport fit */
     background-color: black;
-    color: #00ff00; /* Green terminal text */
-    padding: 10px;
+    color: #00ff00;
+    padding: 8px;
     border-radius: 5px;
-    overflow-y: auto; /* Enable vertical scroll */
+    overflow-y: auto;
     font-family: monospace;
     font-size: 0.9rem;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 pre {

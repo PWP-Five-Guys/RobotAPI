@@ -10,44 +10,42 @@ PI_PASSWORD = "5guys"
 
 # Flask setup
 app = Flask(__name__)
-logging.basicConfig(filename='api_output.log', level=logging.DEBUG)  # Enable debug-level logging
+logging.basicConfig(filename='api_output.log', level=logging.DEBUG)
+
+# Store the last command in memory for easy access
+last_command = None
 
 def ssh_command_to_pi(command):
     """SSH into the Raspberry Pi and run the motor command."""
     try:
         logging.info(f"Connecting to {PI_HOST} via SSH...")
-        # Initialize SSH client
         client = paramiko.SSHClient()
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         client.connect(PI_HOST, username=PI_USERNAME, password=PI_PASSWORD)
+        
+        # Kill any previous instances of the script
         kill_command = "pkill -f main.py"
         logging.info(f"Executing Kill Command: {kill_command}")
         client.exec_command(kill_command)
-        # Command to execute the correct Python script on the Pi
+        
+        # Execute the command on the Pi
         ssh_command = f'python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" {command}'
         logging.info(f"Executing SSH Command: {ssh_command}")
-
-        # Execute the command on the Pi
         stdin, stdout, stderr = client.exec_command(ssh_command)
 
-        # Capture and log output
         output = stdout.read().decode('utf-8')
         error = stderr.read().decode('utf-8')
 
         if output:
             logging.info(f"SSH Output: {output}")
-            print(f"SSH Output: {output}")
         if error:
             logging.error(f"SSH Error: {error}")
-            print(f"SSH Error: {error}")
 
     except Exception as e:
         logging.error(f"SSH Connection failed: {e}")
-        print(f"SSH Connection failed: {e}")
     finally:
         client.close()
         logging.info("SSH Connection closed.")
-
 
 @app.route('/')
 def home():
@@ -57,17 +55,27 @@ def home():
 @app.route('/move', methods=['POST'])
 def move():
     """Handle POST requests to move the robot."""
+    global last_command
     content = request.json
-    command = content['in_command'][0]  # Extract the command ("forward", "stop", etc.)
+    command = content.get('in_command', [None])[0]
 
-    logging.info(f"Received command: {command}")
-    ssh_command_to_pi(command)  # Send the command to the Pi over SSH
+    if command:
+        logging.info(f"Received command: {command}")
+        ssh_command_to_pi(command)  # Send the command to the Pi over SSH
+        last_command = command
+        return jsonify({'success': True, 'out_command': command}), 200
+    else:
+        return jsonify({'error': 'Invalid command'}), 400
 
-    response = {'success': True, 'out_command': command}
-    return jsonify(response)
+@app.route('/move', methods=['GET'])
+def get_last_command():
+    """Handle GET requests to retrieve the last command sent to the robot."""
+    if last_command:
+        return jsonify({'last_command': last_command}), 200
+    else:
+        return jsonify({'message': 'No command sent yet'}), 200
 
-# Route to fetch and stream the log files
-@app.route('/logs/<filename>')
+@app.route('/logs/<filename>', methods=['GET'])
 def logs(filename):
     """Serve the log files dynamically."""
     log_path = os.path.join(os.getcwd(), filename)

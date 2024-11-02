@@ -1,7 +1,10 @@
-from flask import Flask, jsonify, request, render_template, send_file
+import pickle
+from flask import Flask, jsonify, request, render_template, send_file, flash, redirect
+from werkzeug.security import check_password_hash, generate_password_hash
 import paramiko
 import logging
 import os
+import webbrowser
 
 # SSH details
 PI_HOST = "192.168.1.121"
@@ -10,10 +13,30 @@ PI_PASSWORD = "5guys"
 
 # Flask setup
 app = Flask(__name__)
+user_logged_in = False
+app.secret_key = 'gJwlRqBv959595'  #IMPORTANT
 logging.basicConfig(filename='api_output.log', level=logging.DEBUG)
 
 # Store the last command in memory for easy access
 last_command = None
+
+users_file = 'users.pkl'
+if not os.path.exists('users.pkl'):
+    # Create the file if it doesn't exist
+    open('users.pkl', 'wb').close()
+
+def save_to_pkl(data, filename):
+    with open(filename, 'wb') as file:
+        pickle.dump(data, file)
+
+
+def load_from_pkl(filename):
+    try:
+        with open(filename, 'rb') as file:
+            return pickle.load(file)
+    except EOFError:
+        return []
+
 
 def ssh_command_to_pi(command):
     """SSH into the Raspberry Pi and run the motor command."""
@@ -47,10 +70,53 @@ def ssh_command_to_pi(command):
         client.close()
         logging.info("SSH Connection closed.")
 
-@app.route('/')
+
+@app.route('/', methods=['GET', 'POST'])
+def login_register():
+    if request.method == 'POST':
+        form_type = request.form['form_type']
+        if form_type == 'login':
+            username_or_email = request.form['username_or_email']
+            password = request.form['password']
+            users = load_from_pkl(users_file)
+            user = next((u for u in users if u['username'] == username_or_email or u['email'] == username_or_email),
+                        None)
+
+            if user and check_password_hash(user['password'], password):
+                flash('Login successful')
+                global user_logged_in
+                user_logged_in = True
+                return redirect('/home')
+            else:
+                flash('Invalid username/email or password')
+        elif form_type == 'register':
+            name = request.form['name']
+            username = request.form['username']
+            email = request.form['email']
+            password = request.form['password']
+            users = load_from_pkl(users_file)
+
+            if any(u['username'] == username for u in users):
+                flash('Username already exists')
+            elif any(u['email'] == email for u in users):
+                flash('Email already exists')
+            else:
+                hashed_password = generate_password_hash(password)
+                users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
+                save_to_pkl(users, users_file)
+                flash('Registration successful. Please login.')
+                return redirect('/')
+
+    return render_template('login.html')
+
+
+@app.route('/home')
 def home():
-    """Render the control interface."""
-    return render_template('index.html')
+    if user_logged_in:
+        """Render the control interface."""
+        return render_template('index.html')
+    else:
+        return redirect('/')
 
 @app.route('/move', methods=['POST'])
 def move():
@@ -85,4 +151,5 @@ def logs(filename):
         return jsonify({'error': 'File not found'}), 404
 
 if __name__ == '__main__':
+    webbrowser.open("http://127.0.0.1:10000")
     app.run(debug=True, port=10000)

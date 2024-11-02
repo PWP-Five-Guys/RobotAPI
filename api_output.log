@@ -509,3 +509,62 @@ INFO:werkzeug:127.0.0.1 - - [31/Oct/2024 20:49:56] "[36mGET /logs/login_record.
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2024 20:49:58] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2024 20:50:00] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [31/Oct/2024 20:50:02] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-506-096
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:43] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:45] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:47] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:49] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:51] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:53] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:55] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:57] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:27:59] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:01] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:03] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/andreyvasilyev/RobotAPI-main/api.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-506-096
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:05] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:06] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:06] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:07] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:09] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:11] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:13] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 140-506-096
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/mdb.dark.rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/mdb.dark.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/mdb.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/mdb.dark.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/mdb.min.css.map HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:14] "GET /static/js/mdb.umd.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:15] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "[32mPOST / HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "[36mGET /static/log_script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:22] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:24] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:24] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:26] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:28] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:30] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:32] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 19:28:34] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -

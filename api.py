@@ -1,5 +1,5 @@
 import pickle
-from flask import Flask, jsonify, request, render_template, send_file, flash, redirect
+from flask import Flask, jsonify, request, render_template, send_file, flash, redirect, url_for
 from werkzeug.security import check_password_hash, generate_password_hash
 import paramiko
 import logging
@@ -14,21 +14,20 @@ PI_PASSWORD = "5guys"
 # Flask setup
 app = Flask(__name__)
 user_logged_in = False
-app.secret_key = 'gJwlRqBv959595'  #IMPORTANT
+app.secret_key = 'gJwlRqBv959595'  # IMPORTANT
 logging.basicConfig(filename='api_output.log', level=logging.DEBUG)
 
 # Store the last command in memory for easy access
 last_command = None
 
 users_file = 'users.pkl'
-if not os.path.exists('users.pkl'):
+if not os.path.exists(users_file):
     # Create the file if it doesn't exist
-    open('users.pkl', 'wb').close()
+    open(users_file, 'wb').close()
 
 def save_to_pkl(data, filename):
     with open(filename, 'wb') as file:
         pickle.dump(data, file)
-
 
 def load_from_pkl(filename):
     try:
@@ -36,7 +35,6 @@ def load_from_pkl(filename):
             return pickle.load(file)
     except EOFError:
         return []
-
 
 def ssh_command_to_pi(command):
     """SSH into the Raspberry Pi and run the motor command."""
@@ -70,50 +68,81 @@ def ssh_command_to_pi(command):
         client.close()
         logging.info("SSH Connection closed.")
 
-
 @app.route('/', methods=['GET', 'POST'])
 def login_register():
+    global user_logged_in
     if request.method == 'POST':
-        form_type = request.form['form_type']
-        if form_type == 'login':
-            username_or_email = request.form['username_or_email']
-            password = request.form['password']
-            users = load_from_pkl(users_file)
-            user = next((u for u in users if u['username'] == username_or_email or u['email'] == username_or_email),
-                        None)
+        # Check if the request is from AJAX (JSON data) or a regular form submission
+        if request.is_json:
+            data = request.get_json()
+            form_type = data.get('form_type')
+            
+            if form_type == 'login':
+                username_or_email = data.get('username_or_email')
+                password = data.get('password')
+                users = load_from_pkl(users_file)
+                user = next((u for u in users if u['username'] == username_or_email or u['email'] == username_or_email), None)
 
-            if user and check_password_hash(user['password'], password):
-                flash('Login successful')
-                global user_logged_in
-                user_logged_in = True
-                return redirect('/home')
-            else:
-                flash('Invalid username/email or password')
-        elif form_type == 'register':
-            name = request.form['name']
-            username = request.form['username']
-            email = request.form['email']
-            password = request.form['password']
-            users = load_from_pkl(users_file)
+                if user and check_password_hash(user['password'], password):
+                    user_logged_in = True
+                    return jsonify(success=True, redirect_url=url_for('home'))
+                else:
+                    return jsonify(success=False, message="Invalid username/email or password")
+            
+            elif form_type == 'register':
+                name = data.get('name')
+                username = data.get('username')
+                email = data.get('email')
+                password = data.get('password')
+                users = load_from_pkl(users_file)
 
-            if any(u['username'] == username for u in users):
-                flash('Username already exists')
-            elif any(u['email'] == email for u in users):
-                flash('Email already exists')
-            else:
-                hashed_password = generate_password_hash(password)
-                users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
-                save_to_pkl(users, users_file)
-                flash('Registration successful. Please login.')
-                return redirect('/')
+                if any(u['username'] == username for u in users):
+                    return jsonify(success=False, message="Username already exists")
+                elif any(u['email'] == email for u in users):
+                    return jsonify(success=False, message="Email already exists")
+                else:
+                    hashed_password = generate_password_hash(password)
+                    users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
+                    save_to_pkl(users, users_file)
+                    return jsonify(success=True, message="Registration successful! Please log in.")
+
+        else:
+            form_type = request.form['form_type']
+            if form_type == 'login':
+                username_or_email = request.form['username_or_email']
+                password = request.form['password']
+                users = load_from_pkl(users_file)
+                user = next((u for u in users if u['username'] == username_or_email or u['email'] == username_or_email), None)
+
+                if user and check_password_hash(user['password'], password):
+                    flash('Login successful')
+                    user_logged_in = True
+                    return redirect('/home')
+                else:
+                    flash('Invalid username/email or password')
+            elif form_type == 'register':
+                name = request.form['name']
+                username = request.form['username']
+                email = request.form['email']
+                password = request.form['password']
+                users = load_from_pkl(users_file)
+
+                if any(u['username'] == username for u in users):
+                    flash('Username already exists')
+                elif any(u['email'] == email for u in users):
+                    flash('Email already exists')
+                else:
+                    hashed_password = generate_password_hash(password)
+                    users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
+                    save_to_pkl(users, users_file)
+                    flash('Registration successful. Please login.')
+                    return redirect('/')
 
     return render_template('login.html')
-
 
 @app.route('/home')
 def home():
     if user_logged_in:
-        """Render the control interface."""
         return render_template('index.html')
     else:
         return redirect('/')

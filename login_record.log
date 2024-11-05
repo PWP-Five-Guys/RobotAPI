@@ -280,3 +280,18 @@
 2024-11-05 08:18:50.67 - API - 'x' sent a command: stop
 2024-11-05 08:18:57.16 - API - 'x' sent a command: forward
 2024-11-05 08:18:57.24 - API - 'x' sent a command: stop
+2024-11-05 08:20:52.20 - LOGIN - user 'x' logged in
+2024-11-05 08:20:56.07 - API - 'x' sent a command: right
+2024-11-05 08:20:56.17 - API - 'x' sent a command: stop
+2024-11-05 08:21:02.74 - API - 'x' sent a command: back
+2024-11-05 08:21:02.84 - API - 'x' sent a command: stop
+2024-11-05 08:21:06.47 - API - 'x' sent a command: back
+2024-11-05 08:21:06.55 - API - 'x' sent a command: stop
+2024-11-05 08:21:11.20 - API - 'x' sent a command: left
+2024-11-05 08:21:11.28 - API - 'x' sent a command: stop
+2024-11-05 08:21:15.17 - API - 'x' sent a command: forward
+2024-11-05 08:21:15.24 - API - 'x' sent a command: stop
+2024-11-05 08:21:25.11 - API - 'x' sent a command: back
+2024-11-05 08:21:25.22 - API - 'x' sent a command: stop
+2024-11-05 08:24:06.18 - LOGIN - user 'darsh' created account
+2024-11-05 08:24:12.94 - LOGIN - user 'darsh' logged in

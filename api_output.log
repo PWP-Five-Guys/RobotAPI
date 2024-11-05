@@ -28338,3 +28338,3099 @@ INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:19:12] "[36mGET /logs/login_record.
 INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:19:14] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:19:16] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:19:19] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 682-416-711
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "[33mGET /static/mdb.dark.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "[33mGET /static/mdb.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "[33mGET /static/mdb.dark.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "GET /static/mdb.dark.rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "GET /static/mdb.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "GET /static/js/mdb.umd.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:47] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "GET /static/script.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "[36mGET /static/log_script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:52] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:54] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:54] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:root:Received command: right
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaff6690
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" right
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:56] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:56] "GET /logs/login_record.log HTTP/1.1" 200 -
+DEBUG:paramiko.transport:starting thread (client mode): 0xaeb18e0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 0] EOF received (0)
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Output: Reseting PCA9685
+I2C: Write 0x00 to register 0x00
+Setting PWM frequency to 50 Hz
+Estimated pre-scale: 121
+Final pre-scale: 121
+I2C: Device 0x40 returned 0x00 from reg 0x00
+I2C: Write 0x10 to register 0x00
+I2C: Write 0x79 to register 0xFE
+I2C: Write 0x00 to register 0x00
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0x00 to register 0x08
+I2C: Write 0x00 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0x00 to register 0x1C
+I2C: Write 0x00 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 0
+
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:57] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:20:58] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:00] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:02] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:root:Received command: back
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xb0244d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xafe8500
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" back
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:03] "POST /move HTTP/1.1" 200 -
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:03] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:04] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:root:Received command: back
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaff4e60
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:06] "GET /logs/login_record.log HTTP/1.1" 200 -
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaff7320
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" back
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Output: Reseting PCA9685
+I2C: Write 0x00 to register 0x00
+Setting PWM frequency to 50 Hz
+Estimated pre-scale: 121
+Final pre-scale: 121
+I2C: Device 0x40 returned 0x00 from reg 0x00
+I2C: Write 0x10 to register 0x00
+I2C: Write 0x79 to register 0xFE
+I2C: Write 0x00 to register 0x00
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0x00 to register 0x08
+I2C: Write 0x00 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0x00 to register 0x1C
+I2C: Write 0x00 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 0
+
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:07] "POST /move HTTP/1.1" 200 -
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Output: Reseting PCA9685
+I2C: Write 0x00 to register 0x00
+Setting PWM frequency to 50 Hz
+Estimated pre-scale: 121
+Final pre-scale: 121
+I2C: Device 0x40 returned 0x80 from reg 0x00
+I2C: Write 0x10 to register 0x00
+I2C: Write 0x79 to register 0xFE
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0xD0 to register 0x08
+I2C: Write 0x07 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0xD0 to register 0x1C
+I2C: Write 0x07 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 2000
+I2C: Write 0x00 to register 0x0A
+I2C: Write 0x00 to register 0x0B
+I2C: Write 0x00 to register 0x0C
+I2C: Write 0x00 to register 0x0D
+channel: 1  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x0E
+I2C: Write 0x00 to register 0x0F
+I2C: Write 0xFF to register 0x10
+I2C: Write 0x0F to register 0x11
+channel: 2  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x12
+I2C: Write 0x00 to register 0x13
+I2C: Write 0xFF to register 0x14
+I2C: Write 0x0F to register 0x15
+channel: 3  LED_ON: 0 LED_OFF: 4095
+I2C: Write 0x00 to register 0x16
+I2C: Write 0x00 to register 0x17
+I2C: Write 0x00 to register 0x18
+I2C: Write 0x00 to register 0x19
+channel: 4  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0x00 to register 0x08
+I2C: Write 0x00 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0x00 to register 0x1C
+I2C: Write 0x00 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 0
+
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:07] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:08] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:10] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:root:Received command: left
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaf79d00
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaff6780
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Output: Reseting PCA9685
+I2C: Write 0x00 to register 0x00
+Setting PWM frequency to 50 Hz
+Estimated pre-scale: 121
+Final pre-scale: 121
+I2C: Device 0x40 returned 0x00 from reg 0x00
+I2C: Write 0x10 to register 0x00
+I2C: Write 0x79 to register 0xFE
+I2C: Write 0x00 to register 0x00
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0x00 to register 0x08
+I2C: Write 0x00 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0x00 to register 0x1C
+I2C: Write 0x00 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 0
+
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:11] "POST /move HTTP/1.1" 200 -
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" left
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Unhandled channel request "exit-signal"
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:11] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:12] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:14] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:root:Received command: forward
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaff7230
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:starting thread (client mode): 0xaf7b470
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" forward
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:15] "POST /move HTTP/1.1" 200 -
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:15] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:16] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:18] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:20] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:22] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:24] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:root:Received command: back
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:starting thread (client mode): 0xaf7b530
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+INFO:root:Received command: stop
+INFO:root:Connecting to 192.168.1.121 via SSH...
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+DEBUG:paramiko.transport:starting thread (client mode): 0xafa8950
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_3.5.0
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-OpenSSH_7.9p1 Raspbian-10+deb10u2+rpt1
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_7.9p1)
+DEBUG:paramiko.transport:=== Key exchange possibilities ===
+DEBUG:paramiko.transport:kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group-exchange-sha256, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha256, diffie-hellman-group14-sha1
+DEBUG:paramiko.transport:server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa, ecdsa-sha2-nistp256, ssh-ed25519
+DEBUG:paramiko.transport:client encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:server encrypt: chacha20-poly1305@openssh.com, aes128-ctr, aes192-ctr, aes256-ctr, aes128-gcm@openssh.com, aes256-gcm@openssh.com
+DEBUG:paramiko.transport:client mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:server mac: umac-64-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-256-etm@openssh.com, hmac-sha2-512-etm@openssh.com, hmac-sha1-etm@openssh.com, umac-64@openssh.com, umac-128@openssh.com, hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEBUG:paramiko.transport:client compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:server compress: none, zlib@openssh.com
+DEBUG:paramiko.transport:client lang: <none>
+DEBUG:paramiko.transport:server lang: <none>
+DEBUG:paramiko.transport:kex follows: False
+DEBUG:paramiko.transport:=== Key exchange agreements ===
+DEBUG:paramiko.transport:Kex: curve25519-sha256@libssh.org
+DEBUG:paramiko.transport:HostKey: ssh-ed25519
+DEBUG:paramiko.transport:Cipher: aes128-ctr
+DEBUG:paramiko.transport:MAC: hmac-sha2-256
+DEBUG:paramiko.transport:Compression: none
+DEBUG:paramiko.transport:=== End of kex handshake ===
+DEBUG:paramiko.transport:kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ssh-rsa,rsa-sha2-256,rsa-sha2-512,ssh-dss,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521'}
+DEBUG:paramiko.transport:Adding ssh-ed25519 host key for 192.168.1.121: b'77ed742576fd553e1795b6555d8c1f42'
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" back
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] Unhandled channel request "exit-signal"
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:root:SSH Connection closed.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:25] "POST /move HTTP/1.1" 200 -
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+INFO:root:Executing Kill Command: pkill -f main.py
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:Received global request "hostkeys-00@openssh.com"
+DEBUG:paramiko.transport:Rejecting "hostkeys-00@openssh.com" global request from server.
+DEBUG:paramiko.transport:[chan 0] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] EOF sent (0)
+INFO:root:Executing SSH Command: python3 "bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py" stop
+DEBUG:paramiko.transport:[chan 1] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 1] Max packet out: 32768 bytes
+DEBUG:paramiko.transport:Secsh channel 1 opened.
+DEBUG:paramiko.transport:[chan 1] Sesch channel 1 request ok
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:Ignoring message for dead channel 0
+DEBUG:paramiko.transport:[chan 1] EOF received (1)
+INFO:root:SSH Output: Reseting PCA9685
+I2C: Write 0x00 to register 0x00
+Setting PWM frequency to 50 Hz
+Estimated pre-scale: 121
+Final pre-scale: 121
+I2C: Device 0x40 returned 0x00 from reg 0x00
+I2C: Write 0x10 to register 0x00
+I2C: Write 0x79 to register 0xFE
+I2C: Write 0x00 to register 0x00
+I2C: Write 0x80 to register 0x00
+I2C: Write 0x00 to register 0x06
+I2C: Write 0x00 to register 0x07
+I2C: Write 0x00 to register 0x08
+I2C: Write 0x00 to register 0x09
+channel: 0  LED_ON: 0 LED_OFF: 0
+I2C: Write 0x00 to register 0x1A
+I2C: Write 0x00 to register 0x1B
+I2C: Write 0x00 to register 0x1C
+I2C: Write 0x00 to register 0x1D
+channel: 5  LED_ON: 0 LED_OFF: 0
+
+DEBUG:paramiko.transport:EOF in transport thread
+INFO:root:SSH Connection closed.
+DEBUG:paramiko.transport:[chan 1] EOF sent (1)
+DEBUG:paramiko.transport:Dropping user packet because connection is dead.
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:26] "POST /move HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:26] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:28] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:30] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:32] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:34] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:36] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:38] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:40] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:42] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:44] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:46] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:48] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:50] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:21:52] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 682-416-711
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "[33mGET /static/mdb.dark.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "[33mGET /static/mdb.dark.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "[33mGET /static/mdb.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "GET /static/mdb.dark.rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "GET /static/js/mdb.umd.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:51] "GET /static/mdb.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:23:55] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:06] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:06] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:12] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:13] "GET /home HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:13] "[36mGET /static/log_script.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:13] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:14] "GET /logs/login_record.log HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:15] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:17] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:19] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:21] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:23] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:25] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:27] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:29] "[36mGET /logs/login_record.log HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:30] "GET /logs/api_output.log HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 682-416-711
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[33mGET /static/mdb.dark.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[33mGET /static/mdb.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[33mGET /static/mdb.dark.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[36mGET /static/mdb.dark.rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[36mGET /static/mdb.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:24:35] "[36mGET /static/js/mdb.umd.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 682-416-711
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[33mGET /static/mdb.dark.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[33mGET /static/mdb.dark.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[33mGET /static/mdb.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[36mGET /static/mdb.dark.rtl.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[36mGET /static/mdb.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[36mGET /static/js/mdb.umd.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:25] "[36mGET /static/js/jquery.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:31] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [05/Nov/2024 08:26:39] "POST / HTTP/1.1" 200 -

@@ -93,3 +93,190 @@
 2024-10-31 20:46:43 - LOGIN - User 'ishaan' logged in
 2024-10-31 20:47:47 - LOGIN - User 'ishaan' logged in
 2024-10-31 20:48:50 - LOGIN - User 'ishaan' logged in
+2024-11-04 08:31:39.260012 - fewuigfwuih2024-11-04 08:31:40.299018 - fewuigfwuih2024-11-04 08:32:22.34 - fewuigfwuih
+2024-11-04 08:32:27.00 - fewuigfwuih
+2024-11-04 08:35:10.63 - LOGIN - 'andrey' created account
+2024-11-04 08:35:13.27 - LOGIN - 'andrey' created account
+2024-11-04 08:44:27.91 - LOGIN - 'x' created account
+2024-11-04 08:44:34.35 - LOGIN - 'x' logged in
+2024-11-05 07:54:32.43 - LOGIN - user 'darsh' logged in
+2024-11-05 07:56:03.54 - LOGIN - user 'darsh' logged in
+2024-11-05 07:56:06.98 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:07.17 - API - 'darsh' executed a command: back
+2024-11-05 07:56:07.25 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:11.78 - API - 'darsh' executed a command: back
+2024-11-05 07:56:11.86 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:13.69 - API - 'darsh' executed a command: back
+2024-11-05 07:56:16.56 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:21.11 - API - 'darsh' executed a command: back
+2024-11-05 07:56:21.25 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:22.96 - API - 'darsh' executed a command: back
+2024-11-05 07:56:23.06 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:24.83 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:25.29 - API - 'darsh' executed a command: right
+2024-11-05 07:56:25.42 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:27.89 - API - 'darsh' executed a command: right
+2024-11-05 07:56:27.91 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:29.10 - API - 'darsh' executed a command: right
+2024-11-05 07:56:30.73 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:41.28 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:41.48 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:43.92 - API - 'darsh' executed a command: stop
+2024-11-05 07:56:46.06 - API - 'darsh' executed a command: stop
+2024-11-05 07:57:47.88 - LOGIN - user 'darsh' logged in
+2024-11-05 08:00:14.20 - LOGIN - user 'x' logged in
+2024-11-05 08:00:29.57 - API - 'x' sent a command: stop
+2024-11-05 08:00:57.08 - API - 'x' sent a command: stop
+2024-11-05 08:00:57.21 - API - 'x' sent a command: stop
+2024-11-05 08:00:58.26 - API - 'x' sent a command: stop
+2024-11-05 08:00:58.33 - API - 'x' sent a command: stop
+2024-11-05 08:00:58.91 - API - 'x' sent a command: stop
+2024-11-05 08:00:59.96 - API - 'x' sent a command: stop
+2024-11-05 08:01:00.66 - API - 'x' sent a command: stop
+2024-11-05 08:01:02.19 - API - 'x' sent a command: stop
+2024-11-05 08:01:04.85 - API - 'x' sent a command: stop
+2024-11-05 08:01:05.13 - API - 'x' sent a command: stop
+2024-11-05 08:01:05.80 - API - 'x' sent a command: stop
+2024-11-05 08:01:06.13 - API - 'x' sent a command: stop
+2024-11-05 08:01:07.03 - API - 'x' sent a command: stop
+2024-11-05 08:01:11.24 - API - 'x' sent a command: stop
+2024-11-05 08:01:11.90 - API - 'x' sent a command: stop
+2024-11-05 08:01:12.23 - API - 'x' sent a command: stop
+2024-11-05 08:01:13.35 - API - 'x' sent a command: stop
+2024-11-05 08:01:13.95 - API - 'x' sent a command: stop
+2024-11-05 08:01:14.59 - API - 'x' sent a command: stop
+2024-11-05 08:01:15.11 - API - 'x' sent a command: stop
+2024-11-05 08:01:15.14 - API - 'x' sent a command: stop
+2024-11-05 08:01:15.14 - API - 'x' sent a command: stop
+2024-11-05 08:01:15.58 - API - 'x' sent a command: right
+2024-11-05 08:01:15.75 - API - 'x' sent a command: stop
+2024-11-05 08:01:16.53 - API - 'x' sent a command: stop
+2024-11-05 08:01:21.31 - API - 'x' sent a command: stop
+2024-11-05 08:01:32.16 - API - 'x' sent a command: stop
+2024-11-05 08:01:32.17 - API - 'x' sent a command: stop
+2024-11-05 08:01:32.74 - API - 'x' sent a command: stop
+2024-11-05 08:01:33.05 - API - 'x' sent a command: forward
+2024-11-05 08:01:33.05 - API - 'x' sent a command: stop
+2024-11-05 08:01:34.30 - API - 'x' sent a command: stop
+2024-11-05 08:01:37.98 - API - 'x' sent a command: back
+2024-11-05 08:01:38.53 - API - 'x' sent a command: stop
+2024-11-05 08:01:38.62 - API - 'x' sent a command: back
+2024-11-05 08:01:38.83 - API - 'x' sent a command: stop
+2024-11-05 08:01:40.29 - API - 'x' sent a command: back
+2024-11-05 08:01:41.34 - API - 'x' sent a command: stop
+2024-11-05 08:01:43.08 - API - 'x' sent a command: stop
+2024-11-05 08:01:43.66 - API - 'x' sent a command: left
+2024-11-05 08:01:44.38 - API - 'x' sent a command: stop
+2024-11-05 08:01:45.49 - API - 'x' sent a command: left
+2024-11-05 08:01:45.49 - API - 'x' sent a command: stop
+2024-11-05 08:01:47.12 - API - 'x' sent a command: stop
+2024-11-05 08:01:51.51 - API - 'x' sent a command: right
+2024-11-05 08:01:51.51 - API - 'x' sent a command: stop
+2024-11-05 08:01:52.86 - API - 'x' sent a command: right
+2024-11-05 08:01:59.55 - API - 'x' sent a command: stop
+2024-11-05 08:02:06.23 - API - 'x' sent a command: stop
+2024-11-05 08:02:54.04 - API - 'x' sent a command: stop
+2024-11-05 08:02:54.50 - API - 'x' sent a command: stop
+2024-11-05 08:02:54.93 - API - 'x' sent a command: stop
+2024-11-05 08:04:31.04 - LOGIN - user 'x' logged in
+2024-11-05 08:05:28.85 - LOGIN - user 'x' logged in
+2024-11-05 08:05:32.59 - API - 'x' sent a command: stop
+2024-11-05 08:05:33.27 - API - 'x' sent a command: right
+2024-11-05 08:05:33.40 - API - 'x' sent a command: stop
+2024-11-05 08:05:34.48 - API - 'x' sent a command: stop
+2024-11-05 08:05:38.89 - API - 'x' sent a command: back
+2024-11-05 08:05:39.01 - API - 'x' sent a command: stop
+2024-11-05 08:05:47.96 - API - 'x' sent a command: stop
+2024-11-05 08:05:48.17 - API - 'x' sent a command: stop
+2024-11-05 08:05:48.90 - API - 'x' sent a command: stop
+2024-11-05 08:05:49.29 - API - 'x' sent a command: stop
+2024-11-05 08:05:49.53 - API - 'x' sent a command: stop
+2024-11-05 08:10:00.51 - LOGIN - user 'x' logged in
+2024-11-05 08:10:03.81 - API - 'x' sent a command: back
+2024-11-05 08:10:03.90 - API - 'x' sent a command: stop
+2024-11-05 08:10:04.40 - API - 'x' sent a command: back
+2024-11-05 08:10:04.48 - API - 'x' sent a command: stop
+2024-11-05 08:10:05.49 - API - 'x' sent a command: stop
+2024-11-05 08:10:08.49 - API - 'x' sent a command: stop
+2024-11-05 08:10:09.66 - API - 'x' sent a command: stop
+2024-11-05 08:10:13.79 - API - 'x' sent a command: stop
+2024-11-05 08:10:17.61 - API - 'x' sent a command: stop
+2024-11-05 08:10:24.45 - API - 'x' sent a command: stop
+2024-11-05 08:10:27.87 - API - 'x' sent a command: stop
+2024-11-05 08:10:29.16 - API - 'x' sent a command: stop
+2024-11-05 08:10:30.46 - API - 'x' sent a command: stop
+2024-11-05 08:10:31.70 - API - 'x' sent a command: stop
+2024-11-05 08:10:33.62 - API - 'x' sent a command: stop
+2024-11-05 08:10:34.31 - API - 'x' sent a command: stop
+2024-11-05 08:10:34.91 - API - 'x' sent a command: stop
+2024-11-05 08:16:01.07 - LOGIN - user 'x' logged in
+2024-11-05 08:16:04.79 - API - 'x' sent a command: back
+2024-11-05 08:16:04.89 - API - 'x' sent a command: stop
+2024-11-05 08:16:06.95 - API - 'x' sent a command: stop
+2024-11-05 08:16:07.54 - API - 'x' sent a command: stop
+2024-11-05 08:16:08.19 - API - 'x' sent a command: stop
+2024-11-05 08:16:11.31 - API - 'x' sent a command: stop
+2024-11-05 08:16:11.50 - API - 'x' sent a command: stop
+2024-11-05 08:16:11.83 - API - 'x' sent a command: stop
+2024-11-05 08:16:11.90 - API - 'x' sent a command: stop
+2024-11-05 08:16:12.18 - API - 'x' sent a command: stop
+2024-11-05 08:16:12.27 - API - 'x' sent a command: stop
+2024-11-05 08:16:12.62 - API - 'x' sent a command: stop
+2024-11-05 08:16:14.05 - API - 'x' sent a command: stop
+2024-11-05 08:16:14.43 - API - 'x' sent a command: stop
+2024-11-05 08:16:14.43 - API - 'x' sent a command: stop
+2024-11-05 08:16:18.02 - API - 'x' sent a command: stop
+2024-11-05 08:16:18.80 - API - 'x' sent a command: stop
+2024-11-05 08:16:21.77 - API - 'x' sent a command: stop
+2024-11-05 08:16:22.82 - API - 'x' sent a command: stop
+2024-11-05 08:16:23.11 - API - 'x' sent a command: stop
+2024-11-05 08:16:27.52 - API - 'x' sent a command: stop
+2024-11-05 08:16:28.12 - API - 'x' sent a command: stop
+2024-11-05 08:16:28.46 - API - 'x' sent a command: stop
+2024-11-05 08:16:28.89 - API - 'x' sent a command: stop
+2024-11-05 08:16:29.60 - API - 'x' sent a command: stop
+2024-11-05 08:16:33.04 - API - 'x' sent a command: stop
+2024-11-05 08:16:33.37 - API - 'x' sent a command: stop
+2024-11-05 08:16:35.89 - API - 'x' sent a command: back
+2024-11-05 08:16:35.98 - API - 'x' sent a command: stop
+2024-11-05 08:16:39.27 - API - 'x' sent a command: stop
+2024-11-05 08:16:41.25 - API - 'x' sent a command: stop
+2024-11-05 08:16:41.25 - API - 'x' sent a command: stop
+2024-11-05 08:16:41.25 - API - 'x' sent a command: stop
+2024-11-05 08:16:41.25 - API - 'x' sent a command: stop
+2024-11-05 08:16:45.60 - API - 'x' sent a command: stop
+2024-11-05 08:16:47.09 - API - 'x' sent a command: stop
+2024-11-05 08:16:47.69 - API - 'x' sent a command: stop
+2024-11-05 08:16:47.69 - API - 'x' sent a command: stop
+2024-11-05 08:16:47.70 - API - 'x' sent a command: stop
+2024-11-05 08:16:49.26 - API - 'x' sent a command: stop
+2024-11-05 08:16:49.29 - API - 'x' sent a command: stop
+2024-11-05 08:17:43.36 - LOGIN - user 'x' logged in
+2024-11-05 08:17:50.93 - API - 'x' sent a command: forward
+2024-11-05 08:17:50.99 - API - 'x' sent a command: stop
+2024-11-05 08:17:54.47 - API - 'x' sent a command: forward
+2024-11-05 08:17:54.60 - API - 'x' sent a command: stop
+2024-11-05 08:17:56.92 - API - 'x' sent a command: forward
+2024-11-05 08:17:57.00 - API - 'x' sent a command: stop
+2024-11-05 08:17:58.17 - API - 'x' sent a command: stop
+2024-11-05 08:17:58.31 - API - 'x' sent a command: stop
+2024-11-05 08:17:58.31 - API - 'x' sent a command: stop
+2024-11-05 08:17:58.52 - API - 'x' sent a command: left
+2024-11-05 08:17:58.66 - API - 'x' sent a command: stop
+2024-11-05 08:18:00.75 - API - 'x' sent a command: left
+2024-11-05 08:18:00.86 - API - 'x' sent a command: stop
+2024-11-05 08:18:05.67 - API - 'x' sent a command: stop
+2024-11-05 08:18:07.07 - API - 'x' sent a command: stop
+2024-11-05 08:18:08.70 - API - 'x' sent a command: stop
+2024-11-05 08:18:10.79 - API - 'x' sent a command: stop
+2024-11-05 08:18:12.85 - API - 'x' sent a command: stop
+2024-11-05 08:18:14.05 - API - 'x' sent a command: stop
+2024-11-05 08:18:15.17 - API - 'x' sent a command: stop
+2024-11-05 08:18:16.39 - API - 'x' sent a command: stop
+2024-11-05 08:18:16.58 - API - 'x' sent a command: stop
+2024-11-05 08:18:17.21 - API - 'x' sent a command: stop
+2024-11-05 08:18:42.48 - LOGIN - user 'x' logged in
+2024-11-05 08:18:50.58 - API - 'x' sent a command: back
+2024-11-05 08:18:50.67 - API - 'x' sent a command: stop
+2024-11-05 08:18:57.16 - API - 'x' sent a command: forward
+2024-11-05 08:18:57.24 - API - 'x' sent a command: stop

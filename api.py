@@ -5,6 +5,7 @@ import paramiko
 import logging
 import os
 import webbrowser
+import user_logger
 
 # SSH details
 PI_HOST = "192.168.1.121"
@@ -85,6 +86,7 @@ def login_register():
 
                 if user and check_password_hash(user['password'], password):
                     user_logged_in = True
+                    user_logger.update_login(user['username'], 'login')
                     return jsonify(success=True, redirect_url=url_for('home'))
                 else:
                     return jsonify(success=False, message="Invalid username/email or password")
@@ -104,6 +106,7 @@ def login_register():
                     hashed_password = generate_password_hash(password)
                     users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
                     save_to_pkl(users, users_file)
+                    user_logger.update_login(username, 'register')
                     return jsonify(success=True, message="Registration successful! Please log in.")
 
         else:
@@ -117,6 +120,7 @@ def login_register():
                 if user and check_password_hash(user['password'], password):
                     flash('Login successful')
                     user_logged_in = True
+                    user_logger.update_login(user['username'], 'login')
                     return redirect('/home')
                 else:
                     flash('Invalid username/email or password')
@@ -136,6 +140,7 @@ def login_register():
                     users.append({'name': name, 'username': username, 'email': email, 'password': hashed_password})
                     save_to_pkl(users, users_file)
                     flash('Registration successful. Please login.')
+                    user_logger.update_login(username, 'register')
                     return redirect('/')
 
     return render_template('login.html')
@@ -156,6 +161,7 @@ def move():
 
     if command:
         logging.info(f"Received command: {command}")
+        user_logger.update_api(f'{command}')
         ssh_command_to_pi(command)  # Send the command to the Pi over SSH
         last_command = command
         return jsonify({'success': True, 'out_command': command}), 200

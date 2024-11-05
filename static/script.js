@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const logContent = document.getElementById("log-content");
   const buttons = document.querySelectorAll(".arrow-btn");
   const pauseResumeButton = document.getElementById("pause-resume-btn");
+  const button_down = {};
 
   // Function to send commands to the server
   function sendCommand(command) {
@@ -49,15 +50,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const command = button.getAttribute("data-command");
 
     button.addEventListener("mousedown", () => {
+      button_down[button] = true;
       sendCommand(command);
     });
 
     button.addEventListener("mouseup", () => {
-      sendCommand("stop");
+      if(button_down[button] == true){
+        button_down[button] = false;
+        sendCommand("stop");
+      }
     });
 
     button.addEventListener("mouseleave", () => {
-      sendCommand("stop");
+      if(button_down[button] == true){
+        button_down[button] = false;
+        sendCommand("stop");
+      }
     });
   });
 
@@ -97,5 +105,5 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Call simulateLogUpdates to demonstrate live scrolling (remove in production)
-  simulateLogUpdates();
+//  simulateLogUpdates();
 });

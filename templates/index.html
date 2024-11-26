@@ -12,10 +12,7 @@
         }
 
         window.onload = function () {
-            // Connect to the WebSocket server
             const videoSocket = new WebSocket("ws://" + location.hostname + ":8000/");
-
-            // Receive frames and display them in the video element
             videoSocket.onmessage = async function (event) {
                 const image = await event.data.text();
                 $("stream").src = image;
@@ -26,37 +23,19 @@
 
 <body>
     <div class="grid-container">
-        <!-- Top left: Video Stream -->
         <div class="grid-item camera-view">
             <img src="" id="stream" alt="Camera Feed">
         </div>
-
-        <!-- Top right: Arrow Controls -->
         <div class="grid-item controls-container">
-            <h1 class="title">Robot Control Interface</h1>
-            <div class="arrow-controls">
-                <button class="arrow-btn" data-command="forward">&#9650;</button>
-                <div class="center-controls">
-                    <button class="arrow-btn" data-command="left">&#9664;</button>
-                    <button id="pause-resume-btn" class="center-btn" data-status="paused">Pause</button>
-                    <button class="arrow-btn" data-command="right">&#9654;</button>
-                </div>
-                <button class="arrow-btn" data-command="back">&#9660;</button>
+            <h1>Robot Control Interface</h1>
+            <div>
+                <button>Move Forward</button>
+                <button>Move Backward</button>
             </div>
         </div>
-
-        <!-- Bottom left: Placeholder -->
-        <div class="grid-item roads-view">
-            Placeholder
-        </div>
-
-        <!-- Bottom right: Logs -->
         <div class="grid-item logs">
-            <div class="log-buttons">
-                <button id="api-log-btn" class="log-btn active">API Output Log</button>
-                <button id="login-log-btn" class="log-btn">Login Record Log</button>
-            </div>
-            <pre id="log-content" class="log-display"></pre>
+            <h2>Logs</h2>
+            <pre id="log-content"></pre>
         </div>
     </div>
 </body>

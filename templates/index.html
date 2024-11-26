@@ -12,6 +12,7 @@
         }
 
         window.onload = function () {
+            // WebSocket connection for video streaming
             const videoSocket = new WebSocket("ws://" + location.hostname + ":8000/");
             videoSocket.onmessage = async function (event) {
                 const image = await event.data.text();
@@ -23,19 +24,37 @@
 
 <body>
     <div class="grid-container">
+        <!-- Top Left: Video Stream -->
         <div class="grid-item camera-view">
             <img src="" id="stream" alt="Camera Feed">
         </div>
+
+        <!-- Top Right: Robot Controls -->
         <div class="grid-item controls-container">
             <h1>Robot Control Interface</h1>
-            <div>
-                <button>Move Forward</button>
-                <button>Move Backward</button>
+            <div class="arrow-controls">
+                <button class="arrow-btn" data-command="forward">&#9650;</button>
+                <div class="center-controls">
+                    <button class="arrow-btn" data-command="left">&#9664;</button>
+                    <button id="pause-resume-btn" class="center-btn" data-status="paused">Pause</button>
+                    <button class="arrow-btn" data-command="right">&#9654;</button>
+                </div>
+                <button class="arrow-btn" data-command="back">&#9660;</button>
             </div>
         </div>
+
+        <!-- Bottom Left: Placeholder -->
+        <div class="grid-item roads-view">
+            Placeholder
+        </div>
+
+        <!-- Bottom Right: Logs -->
         <div class="grid-item logs">
-            <h2>Logs</h2>
-            <pre id="log-content"></pre>
+            <div class="log-buttons">
+                <button id="api-log-btn" class="log-btn active">API Output Log</button>
+                <button id="login-log-btn" class="log-btn">Login Record Log</button>
+            </div>
+            <pre id="log-content" class="log-display"></pre>
         </div>
     </div>
 </body>

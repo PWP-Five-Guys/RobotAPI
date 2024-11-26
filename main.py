@@ -22,9 +22,9 @@ logging.basicConfig(filename='api_output.log', level=logging.DEBUG)
 # Store the last command in memory for easy access
 last_command = None
 
+# File for storing user data
 users_file = 'users.pkl'
 if not os.path.exists(users_file):
-    # Create the file if it doesn't exist
     open(users_file, 'wb').close()
 
 def save_to_pkl(data, filename):
@@ -39,7 +39,7 @@ def load_from_pkl(filename):
         return []
 
 def ssh_command_to_pi(command):
-    """SSH into the Raspberry Pi and run the motor command."""
+    """Send a command to the Raspberry Pi over SSH."""
     try:
         kill_command = f'pkill -f "../bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry Pi/python/main.py"'
         os.system(kill_command)
@@ -53,6 +53,7 @@ def ssh_command_to_pi(command):
 
 @app.route('/', methods=['GET', 'POST'])
 def login_register():
+    """Handles login and registration functionality."""
     global user_logged_in
     if request.method == 'POST':
         if request.is_json:
@@ -92,6 +93,7 @@ def login_register():
 
 @app.route('/home')
 def home():
+    """Renders the main control interface."""
     if user_logged_in:
         return render_template('index.html')
     else:
@@ -99,7 +101,7 @@ def home():
 
 @app.route('/move', methods=['POST'])
 def move():
-    """Handle POST requests to move the robot."""
+    """Handles robot movement commands."""
     global last_command
     content = request.json
     command = content.get('in_command', [None])[0]
@@ -114,7 +116,7 @@ def move():
 
 @app.route('/move', methods=['GET'])
 def get_last_command():
-    """Handle GET requests to retrieve the last command sent to the robot."""
+    """Retrieve the last command sent to the robot."""
     if last_command:
         return jsonify({'last_command': last_command}), 200
     else:
@@ -122,7 +124,7 @@ def get_last_command():
 
 @app.route('/logs/<filename>', methods=['GET'])
 def logs(filename):
-    """Serve the log files dynamically."""
+    """Serve log files dynamically."""
     log_path = os.path.join(os.getcwd(), filename)
     if os.path.exists(log_path):
         return send_file(log_path, mimetype='text/plain')
@@ -131,16 +133,12 @@ def logs(filename):
 
 # WebSocket-based video feed
 async def handle_connection(websocket, path):
-    """
-    WebSocket connection handler.
-    """
+    """WebSocket connection handler for video streaming."""
     for frame in get_frames():
         await websocket.send(frame)
 
 def get_frames():
-    """
-    Generator function to yield byte-encoded frames for streaming.
-    """
+    """Generator function to yield Base64-encoded frames for streaming."""
     while True:
         success, frame = camera.read()
         if not success:

@@ -6,15 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robot Control</title>
     <link rel="stylesheet" href="static/style.css">
-    <script type="text/javascript" src="static/script.js" defer></script>
-    <script type="text/javascript" src="static/log_script.js" defer></script>
+    <script>
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        window.onload = function () {
+            // Connect to the WebSocket server
+            const videoSocket = new WebSocket("ws://" + location.hostname + ":8000/");
+
+            // Receive frames and display them in the video element
+            videoSocket.onmessage = async function (event) {
+                const image = await event.data.text();
+                $("stream").src = image;
+            };
+        };
+    </script>
 </head>
 
 <body>
     <div class="grid-container">
         <!-- Top left: Video Stream -->
         <div class="grid-item camera-view">
-            Video Stream
+            <img src="" id="stream" alt="Camera Feed">
         </div>
 
         <!-- Top right: Arrow Controls -->
@@ -31,12 +45,12 @@
             </div>
         </div>
 
-        <!-- Bottom left: Roads (Placeholder) -->
+        <!-- Bottom left: Placeholder -->
         <div class="grid-item roads-view">
-            Video Stream
+            Placeholder
         </div>
 
-        <!-- Bottom right: Logs with Tab Switcher -->
+        <!-- Bottom right: Logs -->
         <div class="grid-item logs">
             <div class="log-buttons">
                 <button id="api-log-btn" class="log-btn active">API Output Log</button>

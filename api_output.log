@@ -2206,3 +2206,21 @@ INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 21:32:00] "[36mGET /static/log_script.
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 21:32:00] "GET /logs/api_output.log HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 21:32:02] "GET /logs/api_output.log HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [02/Nov/2024 21:32:04] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:10000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 565-853-559
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "[33mGET /static/mdb.dark.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "[33mGET /static/mdb.dark.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "[33mGET /static/mdb.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "[33mGET /static/fmdb.rtl.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/mdb.dark.rtl.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/mdb.min.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/js/mdb.umd.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/js/mdb.umd.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [08/Nov/2024 21:39:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

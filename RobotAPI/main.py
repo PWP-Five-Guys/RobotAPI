@@ -1,3 +1,4 @@
+from asyncio import subprocess
 import os
 import logging
 from flask import Flask, jsonify, request, render_template, send_file, flash, redirect, url_for, Response
@@ -6,6 +7,8 @@ import math
 import numpy as np
 from werkzeug.security import check_password_hash, generate_password_hash
 import pickle
+import signal
+import atexit
 
 # =======================================================================
 # Overlay-related helper functions (copied from your given overlay code)
@@ -259,7 +262,6 @@ def detect_and_classify_lines(frame, max_line_gap=85, toward_tolerance=65, away_
     draw_center_line_for_parallel_pairs(frame, parallel_blue_lines)
     return frame, blue_mask, blue_mask_dilated
 
-
 # Flask setup
 app = Flask(__name__)
 
@@ -269,6 +271,10 @@ log = logging.getLogger("werkzeug")
 log.disabled = True
 camera = cv2.VideoCapture(0)
 camera.set(cv2.CAP_PROP_FPS, 10)
+
+camera.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
+camera.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+
 users_file = 'users.pkl'
 if not os.path.exists(users_file):
     # Create the file if it doesn't exist
@@ -417,12 +423,9 @@ def video_feed():
 
             yield (b'--frame\r\n'
 
-                   b'Content-Type: image/jpeg\r\n\r\n' + buffer.tobytes() + b'\r\n')  # Send the frame in HTTP response
-
+                   b'Content-Type: image/jpeg\r\n\r\n' + buffer.tobytes() + b'\r\n') # Send the frame in HTTP response
+            
     return Response(generate(), mimetype='multipart/x-mixed-replace; boundary=frame')
-
-
-
 
 @app.route('/logs/<filename>', methods=['GET'])
 def logs(filename):
@@ -437,25 +440,75 @@ def logs(filename):
 
 @app.route('/move', methods=['POST'])
 def move():
-    """Handle robot movement commands."""
     content = request.json
     command = content.get('command')
-    import subprocess
-    if command == 'stop':
-        #kill_command = f'pkill -f "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main"'
-        #os.system(kill_command)*/
-        string_command = "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main stop"
-        os.system(string_command)
-    else:
-        string_command = "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main " + str(command)
-        command2 = [string_command]
-        subprocess.run(command2, shell=True)
+
     if command:
+        if command == 'stop':
+            string_command = r"~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main stop"
+            os.system(string_command)
+
+        else:
+            string_command = r"~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main " + str(command)
+            subprocess.run([string_command], shell=True)
         logging.info(f"Received command: {command}")
+
         return jsonify({'success': True, 'command': command}), 200
+
     else:
         return jsonify({'error': 'Invalid command'}), 400
 
 
+# Cleanup function to release camera resources
+def cleanup_resources():
+    if camera.isOpened():
+        camera.release()
+        cv2.destroyAllWindows()
+        logging.info("Camera resources released.")
+        logging.info("Application shutdown gracefully.")
+
+    cv2.destroyAllWindows()
+
+
+# Register cleanup with atexit and signal handlers
+atexit.register(cleanup_resources)
+signal.signal(signal.SIGINT, lambda sig, frame: cleanup_resources())
+signal.signal(signal.SIGTERM, lambda sig, frame: cleanup_resources())
+
+
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=59000)
+    try:
+        while True:
+            # Read a frame from the camera
+            success, frame = camera.read()
+            if not success:
+                print("Failed to capture frame from camera.")
+                break
+            
+            # Process the frame to generate blue masks
+            _, blue_mask, blue_mask_dilated = detect_and_classify_lines(frame.copy())
+            
+            # Display the masks
+            cv2.imshow("Blue Mask", blue_mask)
+            cv2.imshow("Dilated Blue Mask", blue_mask_dilated)
+
+            app.run(port=1000, debug=True)
+
+            if (cv2.waitKey(1) & 0xFF == ord('q')) or (cv2.waitKey(1) & 0xFF == ord('Q')):
+                print("Exiting display loop.")
+                break
+        
+        # Cleanup resources after exiting the loop
+        cleanup_resources()
+        cv2.destroyAllWindows()
+    
+    except KeyboardInterrupt:
+        print("\nKeyboardInterrupt received. Shutting down...")
+        cleanup_resources()
+        cv2.destroyAllWindows()
+
+    cleanup_resources()
+    cv2.destroyAllWindows()
+
+cleanup_resources()
+cv2.destroyAllWindows()

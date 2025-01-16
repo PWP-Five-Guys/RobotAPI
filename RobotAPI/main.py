@@ -259,14 +259,13 @@ def detect_and_classify_lines(frame, max_line_gap=85, toward_tolerance=65, away_
     draw_center_line_for_parallel_pairs(frame, parallel_blue_lines)
     return frame, blue_mask, blue_mask_dilated
 
-
-# Flask setup
+########################################### FLASK APP
 app = Flask(__name__)
 
 # Logging setup
 logging.basicConfig(filename='api_output.log', level=logging.DEBUG)
 log = logging.getLogger("werkzeug")
-log.disabled = True
+log.disabled = False
 camera = cv2.VideoCapture(0)
 camera.set(cv2.CAP_PROP_FPS, 10)
 users_file = 'users.pkl'
@@ -442,8 +441,6 @@ def move():
     command = content.get('command')
     import subprocess
     if command == 'stop':
-        #kill_command = f'pkill -f "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main"'
-        #os.system(kill_command)*/
         string_command = "~/bcm2835-1.70/Motor_Driver_HAT_Code/Motor_Driver_HAT_Code/Raspberry\ Pi/c/main stop"
         os.system(string_command)
     else:
@@ -458,4 +455,4 @@ def move():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=59000)
+    app.run(host='0.0.0.0', port=10000)
